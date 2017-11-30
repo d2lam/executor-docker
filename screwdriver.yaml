@@ -4,5 +4,6 @@ shared:
 jobs:
     main:
         steps:
+            - sleep: sleep 10000
             - echo: meta --help
         requires: [~commit, ~sd@93:main]
