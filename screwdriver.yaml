@@ -4,5 +4,5 @@ shared:
 jobs:
     main:
         steps:
-            - echo: opt/sd/meta --help
+            - echo: meta set foo
         requires: [~commit, ~sd@93:main]
