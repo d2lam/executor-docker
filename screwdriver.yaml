@@ -7,6 +7,6 @@ jobs:
             - echo: echo $SD_TOKEN
             - meta-set: meta set foo 1234567
             - meta-get: meta get foo
-        requires: [~commit, ~sd@93:main]
+        requires: [~commit, ~sd@93:main, ~pr]
         sourcePaths:
             - test/
